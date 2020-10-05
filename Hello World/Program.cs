@@ -2,9 +2,9 @@
 
 namespace Hello_World
 {
-    internal static class Program
+    class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.Title = "Hello World Program";
             Console.ForegroundColor = ConsoleColor.Green;
