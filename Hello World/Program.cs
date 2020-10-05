@@ -10,7 +10,7 @@ namespace Hello_World
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.WriteLine("Hello what is your name?");
-            var name = Console.ReadLine();
+            Console.ReadLine();
 
             Console.ReadKey();
         }
